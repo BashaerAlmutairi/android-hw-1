@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/total"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84FFFF"
+    android:orientation="vertical"
+    android:scrollbarSize="4dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="218dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="50dp"
+        android:background="#FF80AB"
+        android:gravity="center"
+        android:text="Grade Calculator"
+        android:textColor="#090909"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#AAA0A0"
+        android:ems="10"
+        android:includeFontPadding="true"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:rotationX="8"
+        android:text="Let's make math easier!"
+        android:textColorHint="#917D7D" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+        android:background="#F8F8F8"
+        android:ems="10"
+        android:hint="Quizes15%"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#FBFAFA"
+        android:ems="10"
+        android:hint="Homework25%"
+        android:includeFontPadding="true"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#FBFAFA"
+        android:ems="10"
+        android:hint="Med terms 30%"
+        android:includeFontPadding="true"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/number4"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#FBFAFA"
+        android:ems="10"
+        android:hint="Final 30%"
+        android:includeFontPadding="true"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/teal_700"
+        android:backgroundTint="#29857D"
+        android:includeFontPadding="true"
+        android:text="calculate" />
+
+    <Button
+        android:id="@+id/resetbutton"
+        android:layout_width="98dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:background="#A89E9E"
+        android:text="reset"
+        android:textColorHighlight="#FFFAFA" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#FF80AB"
+        android:text="result"
+        android:textColor="#070707"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
